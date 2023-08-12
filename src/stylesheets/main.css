@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Caveat", cursive;
+  font-family: "Pacifico", cursive;
+}
+
+:root {
+  --navbarHeight: 0px;
+}
+
+/*Header*/
+
+header {
+  position: fixed;
+  width: 100%;
+  height: var(--navbarHeight);
+  background-color: transparent;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+#navbar .navlinks {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  margin-right: 10px;
+  padding: 5px 20px;
+}
+
+/*Section 1*/
+
+#introduction {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80");
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#introduction h1 {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  line-height: 1.4;
+  font-size: 5em;
+}
+
+#introduction span {
+  color: rgba(255, 180, 180, 0.5);
+  font-size: 2em;
+  position: relative;
+  top: 0.5em;
+}
