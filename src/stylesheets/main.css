@@ -4,8 +4,6 @@ body {
   padding: 0;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-family: "Caveat", cursive;
-  font-family: "Pacifico", cursive;
 }
 
 :root {
@@ -28,6 +26,8 @@ header {
   list-style: none;
   display: flex;
   align-items: center;
+  font-family: "Caveat", cursive;
+  font-family: "Pacifico", cursive;
 }
 
 #navbar .navlinks {
@@ -49,6 +49,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Caveat", cursive;
+  font-family: "Pacifico", cursive;
 }
 
 #introduction h1 {
@@ -63,4 +65,12 @@ header {
   font-size: 2em;
   position: relative;
   top: 0.5em;
+}
+
+#about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 40%, 85%);
 }
