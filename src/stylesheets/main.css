@@ -196,6 +196,8 @@ section {
   height: 10em;
   border-radius: 20px;
   background-color: white;
+  position: relative;
+  top: 5%;
 }
 
 .stripe:nth-of-type(1) {
