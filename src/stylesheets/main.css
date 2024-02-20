@@ -45,19 +45,19 @@ section {
   width: 100%;
 }
 
-#introduction {
+#welcome {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../assets/wall.png");
 }
 
-#introduction h1 {
+#welcome h1 {
   color: rgba(255, 255, 255, 0.5);
   margin: 0;
   line-height: 1.4;
   font-size: 5em;
 }
 
-#introduction span {
+#welcome span {
   color: rgba(255, 180, 180, 0.5);
   font-size: 2em;
   position: relative;
