@@ -344,6 +344,10 @@ section {
   object-fit: cover;
 }
 
+#gallery .card h5 {
+  font-weight: bold;
+}
+
 /*hover effect, slightly come up*/
 #gallery .card:hover {
   transform: translateY(-5px);
