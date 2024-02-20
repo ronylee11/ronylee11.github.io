@@ -69,7 +69,6 @@ section {
   height: 15px; /* adjust the distance between arrows */
   position: relative;
   top: 20vh;
-  /*border: 1px red solid;*/
   display: flex;
 }
 
@@ -157,7 +156,6 @@ section {
   font-weight: 300;
   font-family: Sans-serif;
   line-height: 3em;
-  max-width: 75%;
 }
 
 /* Section 3 */
@@ -187,6 +185,7 @@ section {
   transform: rotate(-45deg) translate(40px, -80px);
 }
 
+/*when h1 becomes 1 line*/
 @media (min-width: 528px) {
   /* Section 1 */
   .arrow {
@@ -209,6 +208,19 @@ section {
   /* Section 2 */
   #intro p {
     font-size: 0.9em;
-    max-width: 50%;
+  }
+}
+
+/*on lg*/
+@media (min-width: 992px) {
+  #intro p {
+    font-size: 1em;
+  }
+}
+
+/*on xxl*/
+@media (min-width: 1400px) {
+  #intro p {
+    font-size: 1.2em;
   }
 }
