@@ -41,7 +41,7 @@ header {
 /*Section 1*/
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -64,14 +64,6 @@ section {
   top: 0.5em;
 }
 
-#about {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: hsl(0, 40%, 85%);
-}
-
 .arrow {
   width: 20px;
   height: 15px; /* adjust the distance between arrows */
@@ -88,31 +80,26 @@ section {
   height: 30px;
   border-radius: 20px;
   animation: 1s arrow1 infinite;
+  position: relative;
 }
 
 .left-wing {
   transform: rotate(-45deg);
-  position: relative;
   right: 7px;
 }
 
 .right-wing {
   transform: rotate(45deg);
-  position: relative;
   left: 7px;
 }
 
 .arrow:nth-of-type(3) .left-wing,
 .arrow:nth-of-type(3) .right-wing {
-  /*background: rgba(255, 255, 255, 0.8);*/
-  /*border: 1px red solid;*/
   animation: 1s arrow2 infinite;
 }
 
 .arrow:nth-of-type(4) .left-wing,
 .arrow:nth-of-type(4) .right-wing {
-  /*background: rgba(255, 255, 255, 0.5);*/
-  /*border: 1px red solid;*/
   animation: 1s arrow3 infinite;
 }
 
