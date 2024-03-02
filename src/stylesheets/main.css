@@ -359,6 +359,24 @@ section {
   transition: 0.3s;
 }
 
+/* Section 5: Collaboration */
+#collaboration {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1707343848873-d6a834b5f9b9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+#collaboration form {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  line-height: 1.5em;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+#collaboration button {
+  font-size: 1em;
+}
+
 /*when h1 becomes 1 line*/
 @media (min-width: 528px) {
   /* Section 1 */
