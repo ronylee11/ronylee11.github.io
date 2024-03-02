@@ -384,7 +384,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
- }
+}
 
 /*when h1 becomes 1 line*/
 @media (min-width: 528px) {
@@ -441,5 +441,12 @@ section {
 @media (min-width: 1400px) {
   #intro p {
     font-size: 1.2em;
+  }
+}
+
+/*on mobile, turn off parallax*/
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
   }
 }
