@@ -291,7 +291,8 @@ section {
 
 /* Section 3: Timeline */
 #timeline {
-  background-color: #0f1117;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1494791368093-85217fbbf8de?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 .stripe {
@@ -376,6 +377,14 @@ section {
 #collaboration button {
   font-size: 1em;
 }
+
+.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
 
 /*when h1 becomes 1 line*/
 @media (min-width: 528px) {
