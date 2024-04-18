@@ -80,141 +80,145 @@
     <!--gallery-->
     <section
       id="gallery"
-      class="d-flex align-items-center justify-content-center flex-column parallax"
+      class="d-flex align-items-center justify-content-start flex-column parallax"
     >
-      <h1 class="text-white">Project Gallery</h1>
-      <div id="gallery-grid" class="col-lg-8">
-        <!--first row-->
-        <div class="row mb-lg-3">
-          <div class="col-lg-4">
-            <a class="card" href="https://github.com/ronylee11/Talabia">
-              <img
-                src="https://github.com/ronylee11/Talabia/raw/main/.github/chessboard.png"
-                alt="Talabia"
-              />
-              <div class="card-body">
-                <h5>Talabia Chess</h5>
-                <p>Java, Swing <br /> 
-                Chess game, but with a twist</p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4">
-            <a class="card" href="https://github.com/ronylee11/alien-vs-zombies">
-              <img
-                src="https://github.com/ronylee11/alien-vs-zombies/raw/main/.github/game-dashboard.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <h5>Alien vs Zombie</h5>
-                <p>C++ <br />
-                Cli-based Game based on Alien Path</p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4">
-            <a
-              class="card"
-              href="https://food-reservation-system-zfmt.onrender.com/"
-            >
-              <img
-                src="https://github.com/ronylee11/food-reservation-system/raw/main/.github/assets/homepage.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <h5>Food Reservation System</h5>
-                <p>JavaScript, MongoDB, ExpressJS, NodeJS<br />
-                Full Stack Web App</p>
-              </div>
-            </a>
-          </div>
+    <h1 class="text-white">Project Gallery</h1>
+    <div id="carouselExampleIndicators" class="carousel carousel-fade">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-
-        <!--second row-->
-        <div class="row mb-lg-3">
-          <div class="col-lg-4">
-            <a class="card" href="https://www.github.com/ronylee11/awesome">
-              <img
-                src="https://github.com/ronylee11/awesome/raw/main/.github/awesome-demo.gif"
-                alt=""
-              />
-              <div class="card-body">
-                <h5>AwesomeWM Build</h5>
-                <p>Lua <br />
-                Linux desktop setup using awesome</p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4">
-            <a class="card" href="https://github.com/ronylee11/suckless">
-              <img
-                src="https://github.com/ronylee11/suckless/raw/main/.github/dwm-showcase.gif"
-                alt=""
-              />
-              <div class="card-body">
-                <h5>Dwm Build</h5>
-                <p>C++<br />
-                Linux desktop setup using dwm</p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4">
-            <a class="card" href="https://github.com/ronylee11/ant">
-              <img src="https://github.com/ronylee11/ant/raw/main/.github/assets/iceberg-showcase.jpg" alt="" />
-              <div class="card-body">
-                <h5>Neovim Build</h5>
-                <p>Compilation of my Alacritty+Neovim+Tmux productivity workspace setup</p>
-              </div>
-            </a>
-          </div>
+        <div class="carousel-inner p-5">
+            <div class="carousel-item active card py-3 px-5">
+                <div class="row mb-2">
+                    <a class="card col-12 col-md-6" href="https://github.com/ronylee11/Talabia">
+                        <img
+                                src="https://github.com/ronylee11/Talabia/raw/main/.github/chessboard.png"
+                                alt="Talabia"
+                                class="d-block w-100"
+                                />
+                        <div class="card-body">
+                            <h5>Talabia Chess</h5>
+                            <p>Java, Swing <br /> 
+                            Chess game, but with a twist</p>
+                        </div>
+                    </a>
+                    <a class="card col-12 col-md-6" href="https://github.com/ronylee11/alien-vs-zombies">
+                        <img
+                                src="https://github.com/ronylee11/alien-vs-zombies/raw/main/.github/game-dashboard.jpg"
+                                alt=""
+                                />
+                        <div class="card-body">
+                            <h5>Alien vs Zombie</h5>
+                            <p>C++ <br />
+                            Cli-based Game based on Alien Path</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="row">
+                    <a
+                            class="card col-12 col-md-6"
+                            href="https://food-reservation-system-zfmt.onrender.com/"
+                            >
+                            <img
+                                    src="https://github.com/ronylee11/food-reservation-system/raw/main/.github/assets/homepage.jpg"
+                                    alt=""
+                                    />
+                            <div class="card-body">
+                                <h5>Food Reservation System</h5>
+                                <p>JavaScript, MongoDB, ExpressJS, NodeJS<br />
+                                Full Stack Web App</p>
+                            </div>
+                    </a>
+                        <a class="card col-12 col-md-6" href="https://github.com/ronylee11/Go-Boom">
+                            <img src="https://github.com/ronylee11/Go-Boom/raw/main/.github/assets/screenshot.jpg" alt="" />
+                            <div class="card-body">
+                                <h5>Go Boom</h5>
+                                <p>Java, JavaFX<br />
+                                Simple Poker Card Game
+                                </p>
+                            </div>
+                        </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card py-2 px-5">
+                    <div class="row mb-2">
+                        <a class="card col-12 col-md-6" href="https://github.com/ronylee11/suckless">
+                            <img
+                                    src="https://github.com/ronylee11/suckless/raw/main/.github/dwm-showcase.gif"
+                                    alt=""
+                                    />
+                            <div class="card-body">
+                                <h5>Dwm Build</h5>
+                                <p>C++<br />
+                                Linux desktop setup using dwm</p>
+                            </div>
+                        </a>
+                        <a class="card col-12 col-md-6" href="https://github.com/ronylee11/ant">
+                            <img src="https://github.com/ronylee11/ant/raw/main/.github/assets/iceberg-showcase.jpg" alt="" />
+                            <div class="card-body">
+                                <h5>Neovim Build</h5>
+                                <p>Compilation of my Alacritty+Neovim+Tmux productivity workspace setup</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a class="card col-12 col-md-6 offset-md-3" href="https://www.github.com/ronylee11/awesome">
+                            <img
+                                    src="https://github.com/ronylee11/awesome/raw/main/.github/awesome-demo.gif"
+                                    alt=""
+                                    />
+                            <div class="card-body">
+                                <h5>AwesomeWM Build</h5>
+                                <p>Lua <br />
+                                Linux desktop setup using awesome</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card py-2 px-5">
+                    <div class="row mb-2">
+                        <a class="card col-12 col-md-8 offset-md-2" href="https://rony.is-a.dev/advice-generator">
+                            <img
+                                    src="https://github.com/ronylee11/advice-generator/raw/main/screenshot.jpg"
+                                    alt=""
+                                    />
+                            <div class="card-body">
+                                <h5>Advice Generator</h5>
+                                <p>HTML, CSS<br/>
+                                Generate advice using API</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row mb-2">
+                        <a class="card col-12 col-md-8 offset-md-2" href="https://rony.is-a.dev/interactive-rating-component">
+                            <img
+                                    src="https://github.com/ronylee11/interactive-rating-component/raw/main/.github/assets/screenshot.jpg"
+                                    alt=""
+                                    />
+                            <div class="card-body">
+                                <h5>Interactive Rating Component</h5>
+                                <p>HTML, CSS<br/>
+                                Practice Hover and OnClick events</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <!--third row-->
-        <div class="row">
-          <div class="col-lg-4">
-            <a class="card" href="https://rony.is-a.dev/advice-generator">
-              <img
-                src="https://github.com/ronylee11/advice-generator/raw/main/screenshot.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <h5>Advice Generator</h5>
-                <p>HTML, CSS<br/>
-                Generate advice using API</p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4">
-            <a class="card" href="https://rony.is-a.dev/interactive-rating-component">
-              <img
-                src="https://github.com/ronylee11/interactive-rating-component/raw/main/.github/assets/screenshot.jpg"
-                alt=""
-              />
-              <div class="card-body">
-                <h5>Interactive Rating Component</h5>
-                <p>HTML, CSS<br/>
-                Practice Hover and OnClick events</p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4">
-              <a class="card" href="https://github.com/ronylee11/Go-Boom">
-                  <img src="https://github.com/ronylee11/Go-Boom/raw/main/.github/assets/screenshot.jpg" alt="" />
-                  <div class="card-body">
-                      <h5>Go Boom</h5>
-                      <p>Java, JavaFX<br />
-                      Simple Poker Card Game
-                      </p>
-                  </div>
-              </a>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     </section>
     <!--collaboration-->
     <section id="collaboration">
