@@ -178,7 +178,7 @@ section {
 
 #hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../assets/wall.png");
+    url("../assets/hero.png");
 }
 
 #hero h1 {
@@ -292,7 +292,7 @@ section {
 /* Section 3: Timeline */
 #timeline {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("https://images.unsplash.com/photo-1494791368093-85217fbbf8de?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    url("../assets/timeline.png");
 }
 
 .stripe {
@@ -365,7 +365,7 @@ section {
 /* Section 5: Collaboration */
 #collaboration {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("https://images.unsplash.com/photo-1707343848873-d6a834b5f9b9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    url("../assets/collab.png");
 }
 
 #collaboration h1 {
