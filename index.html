@@ -82,9 +82,8 @@
     <!--gallery-->
     <section
       id="desktop-gallery"
-      class="gallery d-none d-lg-block"
+      class="gallery d-none d-lg-flex align-items-center justify-content-start flex-column parallax"
     >
-    <div class="d-flex align-items-center justify-content-start flex-column parallax" >
     <h1 class="text-white">Project Gallery</h1>
     <div id="desktopGallery" class="carousel carousel-fade">
         <div class="carousel-indicators">
@@ -222,24 +221,23 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-</div>
 </section>
     <!--mobile gallery-->
     <section
       id="mobile-gallery" 
-      class="gallery d-lg-none"
+      class="gallery d-flex d-lg-none align-items-center justify-content-center flex-column parallax"
     >
-    <div class="d-flex align-items-center justify-content-start flex-column parallax" >
     <h1 class="text-white">Project Gallery</h1>
     <div id="mobileGallery" class="carousel carousel-fade">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#mobileGallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#mobileGallery" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#mobileGallery" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#mobileGallery" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#mobileGallery" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#mobileGallery" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#mobileGallery" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner p-5">
+        <div class="carousel-inner px-5 pb-5 pt-3">
+            <!--1-->
             <div class="carousel-item active card py-3 px-5">
                 <div class="row">
                     <a class="card col-12 col-md-6" href="https://github.com/ronylee11/Talabia">
@@ -267,6 +265,50 @@
                     </a>
                 </div>
             </div>
+            <!--3-->
+            <div class="carousel-item">
+                <div class="card py-2 px-5">
+                    <div class="row">
+                        <a class="card col-12 col-md-6" href="https://github.com/ronylee11/suckless">
+                            <img
+                                    src="https://github.com/ronylee11/suckless/raw/main/.github/dwm-showcase.gif"
+                                    alt=""
+                                    />
+                            <div class="card-body">
+                                <h5>Dwm Build</h5>
+                                <p>C++<br />
+                                Linux desktop setup using dwm</p>
+                            </div>
+                        </a>
+                        <a class="card col-12 col-md-6" href="https://github.com/ronylee11/ant">
+                            <img src="https://github.com/ronylee11/ant/raw/main/.github/assets/iceberg-showcase.jpg" alt="" />
+                            <div class="card-body">
+                                <h5>Neovim Build</h5>
+                                <p>Compilation of my Alacritty+Neovim+Tmux productivity workspace setup</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--5-->
+            <div class="carousel-item">
+                <div class="card py-2 px-5">
+                    <div class="row">
+                        <a class="card col-12 col-md-6 offset-md-3" href="https://www.github.com/ronylee11/awesome">
+                            <img
+                                    src="https://github.com/ronylee11/awesome/raw/main/.github/awesome-demo.gif"
+                                    alt=""
+                                    />
+                            <div class="card-body">
+                                <h5>AwesomeWM Build</h5>
+                                <p>Lua <br />
+                                Linux desktop setup using awesome</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--2-->
             <div class="carousel-item">
                 <div class="card py-2 px-5">
                     <div class="row">
@@ -296,47 +338,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="card py-2 px-5">
-                    <div class="row">
-                        <a class="card col-12 col-md-6" href="https://github.com/ronylee11/suckless">
-                            <img
-                                    src="https://github.com/ronylee11/suckless/raw/main/.github/dwm-showcase.gif"
-                                    alt=""
-                                    />
-                            <div class="card-body">
-                                <h5>Dwm Build</h5>
-                                <p>C++<br />
-                                Linux desktop setup using dwm</p>
-                            </div>
-                        </a>
-                        <a class="card col-12 col-md-6" href="https://github.com/ronylee11/ant">
-                            <img src="https://github.com/ronylee11/ant/raw/main/.github/assets/iceberg-showcase.jpg" alt="" />
-                            <div class="card-body">
-                                <h5>Neovim Build</h5>
-                                <p>Compilation of my Alacritty+Neovim+Tmux productivity workspace setup</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card py-2 px-5">
-                    <div class="row">
-                        <a class="card col-12 col-md-6 offset-md-3" href="https://www.github.com/ronylee11/awesome">
-                            <img
-                                    src="https://github.com/ronylee11/awesome/raw/main/.github/awesome-demo.gif"
-                                    alt=""
-                                    />
-                            <div class="card-body">
-                                <h5>AwesomeWM Build</h5>
-                                <p>Lua <br />
-                                Linux desktop setup using awesome</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <!--4-->
             <div class="carousel-item">
                 <div class="card py-2 px-5">
                     <div class="row mb-2">
@@ -377,7 +379,6 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-</div>
 </section>
     <!--collaboration-->
     <section id="collaboration">
